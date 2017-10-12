@@ -69,7 +69,17 @@ app.get("/tablelist", function(req, res) {
 	res.sendFile(path.join(__dirname, "tablelist.html"));
 });
 
+//API Reservation
+app.get("/api/tables", function(req, res) {
+    res.json(reservation);
+    return;
+});
 
+//API Waiting List
+app.get("/api/wait", function(req, res) {
+    res.json(wait);
+    return;
+});
 
 
 
