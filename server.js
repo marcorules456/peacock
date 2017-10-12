@@ -51,9 +51,14 @@ var reservation = [
 //Creating Routes
 //==============================================================
 
+<<<<<<< Updated upstream
 //Assets
 app.use(express.static(__dirname + "/assets/"));
 
+=======
+//Get Static files
+app.use(express.static(__dirname + "/assets/"));
+>>>>>>> Stashed changes
 
 //GET request
 app.get("/", function(req, res) {
