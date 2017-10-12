@@ -24,10 +24,12 @@ h1 {
 .plate {
 	margin-left:500px;
 	width:100px;
+	margin-top:5%;
 	float:left;
 }
 .clock {
 	margin-left:200px;
+	margin-top:5%;
 	width:100px;
 	float:left;
 }
