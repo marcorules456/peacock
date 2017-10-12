@@ -82,11 +82,14 @@ app.get("/api/wait", function(req, res) {
 });
 
 
-
 //POST request
-
-
-
+app.post("/api/new", function(req, res) {
+    var newReservation = req.body;
+    if ( reservation.length > 5 ) {
+        wait.push(newReservation);
+    }
+    reservation.push(newReservation);
+});
 
 
 //to start the server and make it listen for a GET/POST command
