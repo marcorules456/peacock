@@ -51,11 +51,15 @@ var reservation = [
 //Creating Routes
 //==============================================================
 
+//Assets
+app.use(express.static(__dirname + "/assets/"));
+
 
 //GET request
 app.get("/", function(req, res) {
 	res.sendFile(path.join(__dirname, "index.html"));
 });
+
 
 app.get("/reservation", function(req, res) {
 	res.sendFile(path.join(__dirname, "reservation.html"));
@@ -64,7 +68,6 @@ app.get("/reservation", function(req, res) {
 app.get("/tablelist", function(req, res) {
 	res.sendFile(path.join(__dirname, "tablelist.html"));
 });
-
 
 
 
