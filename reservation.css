@@ -1,0 +1,52 @@
+.btn-danger {
+	margin-left:2%;
+}
+
+h1 {
+	margin-left:30%;
+	margin-bottom:100px;
+	color: white;
+}
+body {
+	background-image: url("redness2.png");
+}
+.logo{
+ float:left;
+ margin-left:30%;
+ width:10%;
+ padding:10px;
+ background-color:black;
+ border-radius:50%;
+ border: 2px red solid;
+}
+
+.jumbotron{
+	background-image: url("flaming.jpg");
+	color:red;
+	border:3px solid black;
+	border-radius: 10px;
+
+}
+label {
+	font-size:14px;
+}
+.plate {
+	margin-left:600px;
+	width:100px;
+	position:relative;
+	bottom:80px;
+	float:left;
+
+
+}
+.clock {
+	margin-left:100px;
+	position:relative;
+	bottom:80px;
+	width:100px;
+	float:left;
+}
+
+.header {
+	background-color: #660000;
+}
